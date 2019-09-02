@@ -28,9 +28,6 @@ class OnboardingViewController: UIViewController {
                 //self.navigationController?.pushViewController(newNavigationController, animated: true)
                 self.present(newNavigationController, animated: true, completion: nil)
             }
-        } else {
-            UserDefaults.standard.set(true, forKey: "Onboarding")
-            //print("tes")
         }
         
 
@@ -38,6 +35,8 @@ class OnboardingViewController: UIViewController {
     }
     
     @IBAction func OnboardingTapped(_ sender: Any) {
+        UserDefaults.standard.set(true, forKey: "Onboarding")
+        
         let newStoryboard = UIStoryboard(name: "Home", bundle: nil)
         let newViewController = newStoryboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
         let newNavigationController = UINavigationController(rootViewController: newViewController)

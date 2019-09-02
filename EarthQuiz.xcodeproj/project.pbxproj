@@ -23,6 +23,9 @@
 		5038851A231C2660002FD5CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388519231C2660002FD5CC /* MapViewController.swift */; };
 		5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851B231C286D002FD5CC /* QuizViewController.swift */; };
 		5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */; };
+		50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */; };
+		50388522231CE117002FD5CC /* MissionUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388521231CE117002FD5CC /* MissionUnlockViewController.swift */; };
+		50388524231CE2CA002FD5CC /* MissionCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388523231CE2CA002FD5CC /* MissionCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		50388519231C2660002FD5CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5038851B231C286D002FD5CC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharUnlockViewController.swift; sourceTree = "<group>"; };
+		50388521231CE117002FD5CC /* MissionUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionUnlockViewController.swift; sourceTree = "<group>"; };
+		50388523231CE2CA002FD5CC /* MissionCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,9 @@
 			children = (
 				50388511231C135A002FD5CC /* Quiz.storyboard */,
 				5038851B231C286D002FD5CC /* QuizViewController.swift */,
+				5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */,
+				50388521231CE117002FD5CC /* MissionUnlockViewController.swift */,
+				50388523231CE2CA002FD5CC /* MissionCardViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -213,9 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				50388516231C1A4C002FD5CC /* MissionDetailViewController.swift in Sources */,
+				50388524231CE2CA002FD5CC /* MissionCardViewController.swift in Sources */,
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
+				50388522231CE117002FD5CC /* MissionUnlockViewController.swift in Sources */,
+				50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */,
 				503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */,
 				50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */,
 				50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */,

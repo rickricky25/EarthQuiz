@@ -16,6 +16,10 @@ class MapViewController: UIViewController {
     @IBOutlet weak var btnMap1: UIButton!
     @IBOutlet weak var btnMap2: UIButton!
     override func viewDidLoad() {
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         let playerLevel = UserDefaults.standard.integer(forKey: "Level")
         
@@ -39,8 +43,6 @@ class MapViewController: UIViewController {
         } else if playerLevel == 4 {
             btnMap5.isEnabled = false
         }
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func mapPressed(_ sender: UIButton) {
