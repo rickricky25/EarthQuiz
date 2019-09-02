@@ -124,17 +124,74 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7m-1p-tic">
+                                <rect key="frame" x="95" y="781" width="225" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Accept Mission"/>
+                                <connections>
+                                    <action selector="btnAcceptPressed:" destination="iLI-U1-r3O" eventType="touchUpInside" id="fX1-59-5MK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AVk-A8-PcH"/>
                     </view>
                     <connections>
+                        <outlet property="blurView" destination="XGA-a9-Ejz" id="AiB-47-CgV"/>
                         <outlet property="lblMissionTitle" destination="02h-TM-EhI" id="h9h-j6-omt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YRg-MK-dBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1612" y="-70"/>
+            <point key="canvasLocation" x="1611.5942028985507" y="-70.3125"/>
+        </scene>
+        <!--Mission Popup View Controller-->
+        <scene sceneID="iCL-oL-hxB">
+            <objects>
+                <viewController storyboardIdentifier="MissionPopup" id="O8t-9S-k4u" customClass="MissionPopupViewController" customModule="EarthQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tXj-av-zkr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3V8-2D-B6s">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-0X-8TU">
+                                <rect key="frame" x="70" y="208" width="274" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpK-7a-6RU">
+                                        <rect key="frame" x="112" y="396" width="51" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="btnBackPressed:" destination="O8t-9S-k4u" eventType="touchUpInside" id="ErE-GF-jhE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3V8-2D-B6s" secondAttribute="trailing" id="Czt-os-Gkr"/>
+                            <constraint firstItem="3V8-2D-B6s" firstAttribute="top" secondItem="tXj-av-zkr" secondAttribute="top" id="JsK-rl-ffZ"/>
+                            <constraint firstItem="3V8-2D-B6s" firstAttribute="leading" secondItem="tXj-av-zkr" secondAttribute="leading" id="NOp-77-8Pm"/>
+                            <constraint firstAttribute="bottom" secondItem="3V8-2D-B6s" secondAttribute="bottom" id="nTB-gt-RsD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hfi-3R-vL1"/>
+                    </view>
+                    <connections>
+                        <outlet property="blurView" destination="3V8-2D-B6s" id="fKc-PR-2wR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GKo-rZ-IlO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2311.594202898551" y="-69.642857142857139"/>
         </scene>
     </scenes>
 </document>
