@@ -24,6 +24,7 @@
 		5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851B231C286D002FD5CC /* QuizViewController.swift */; };
 		5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */; };
 		50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */; };
+		50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388525231D1A39002FD5CC /* MissionPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		5038851B231C286D002FD5CC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharUnlockViewController.swift; sourceTree = "<group>"; };
+		50388525231D1A39002FD5CC /* MissionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				5038850B231C132F002FD5CC /* Mission.storyboard */,
 				50388513231C17BA002FD5CC /* MissionListViewController.swift */,
 				50388515231C1A4C002FD5CC /* MissionDetailViewController.swift */,
+				50388525231D1A39002FD5CC /* MissionPopupViewController.swift */,
 			);
 			path = Mission;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
+				50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */,
 				50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */,
 				503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */,
 				50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */,
