@@ -13,6 +13,10 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var imgMission: UIImageView!
     @IBOutlet weak var imgCharacter: UIImageView!
     override func viewDidLoad() {
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         
         let tapGestureMission = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGesture:)))

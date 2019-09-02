@@ -17,7 +17,13 @@ class CharUnlockViewController: UIViewController {
     }
     
     @IBAction func btnHomePressed(_ sender: UIButton) {
-        _ = navigationController?.popToRootViewController(animated: true)
+        if sender.tag == 1 {
+            _ = navigationController?.popToRootViewController(animated: true)
+        } else if sender.tag == 2 {
+            let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+            let newViewControl = newStoryboard.instantiateViewController(withIdentifier: "MissionList")
+            self.navigationController?.pushViewController(newViewControl, animated: true)
+        }
     }
     
     /*
