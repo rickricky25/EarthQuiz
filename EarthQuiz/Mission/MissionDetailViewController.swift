@@ -31,6 +31,7 @@ class MissionDetailViewController: UIViewController {
         
         let modalViewController = storyboard?.instantiateViewController(withIdentifier: "MissionPopup") as! MissionPopupViewController
         modalViewController.modalPresentationStyle = .overCurrentContext
+        modalViewController.modalTransitionStyle = .crossDissolve
         present(modalViewController, animated: true, completion: nil)
     }
     
