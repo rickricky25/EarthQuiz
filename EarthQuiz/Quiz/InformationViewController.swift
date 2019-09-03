@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class InformationViewController: UIViewController {
     @IBOutlet weak var imgInformation: UIImageView!
@@ -14,7 +15,7 @@ class InformationViewController: UIViewController {
     
     var level = 0
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         
         if level == 1 {
@@ -53,6 +54,14 @@ class InformationViewController: UIViewController {
         } else if level == 12 {
             imgInformation.image = UIImage(named: "InfoPaperino01")
             lblInformation.text = "I come from the forest, from one of the trees that's supposed to be kept to stop global warming. Nowadays people are exploiting me because they think that I’m a renewable resource. Well, they’re not wrong, but they’re being too greedy."
+        }
+        
+        let player = AVQueuePlayer()
+        if let url = Bundle.main.url(forResource: "AudioPaperino\(level)", withExtension: "m4a") {
+            print(url)
+            player.removeAllItems()
+            player.insert(AVPlayerItem(url: url), after: nil)
+            player.play()
         }
 
         // Do any additional setup after loading the view.
