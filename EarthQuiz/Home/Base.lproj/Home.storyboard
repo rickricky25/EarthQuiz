@@ -26,39 +26,47 @@
                                         <rect key="frame" x="0.0" y="-90" width="414" height="308"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vti-qa-Klz" userLabel="Character Collection View">
-                                        <rect key="frame" x="0.0" y="236" width="414" height="336"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vti-qa-Klz" userLabel="Character Collection View">
+                                        <rect key="frame" x="0.0" y="236" width="414" height="368"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wxp-ZH-x22">
-                                            <size key="itemSize" width="221" height="319"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wxp-ZH-x22">
+                                            <size key="itemSize" width="328" height="369"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QgM-lJ-U3a">
-                                                <rect key="frame" x="96.5" y="0.0" width="221" height="319"/>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="thumbnailCollection" reuseIdentifier="thumbnailCollection" id="QgM-lJ-U3a" customClass="HomeCollectionViewCell" customModule="EarthQuiz" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="-0.5" width="328" height="369"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="221" height="319"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="328" height="369"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cda-af-bmC">
-                                                            <rect key="frame" x="20" y="20" width="181" height="223"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi, I'm Peperio!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rS5-M3-Yni">
-                                                            <rect key="frame" x="55" y="273" width="120" height="26"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi, I'm Peperio!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rS5-M3-Yni">
+                                                            <rect key="frame" x="84" y="323" width="161" height="26"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cda-af-bmC">
+                                                            <rect key="frame" x="3" y="0.0" width="322" height="340"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
                                                     </subviews>
                                                 </view>
+                                                <connections>
+                                                    <outlet property="imgThumbnail" destination="cda-af-bmC" id="0NA-a1-NDe"/>
+                                                    <outlet property="lblThumbnail" destination="rS5-M3-Yni" id="OpL-YL-MNQ"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="qds-VS-B7O"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="VM9-EC-w1t"/>
+                                        </connections>
                                     </collectionView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FooterEarth" translatesAutoresizingMaskIntoConstraints="NO" id="rPh-o5-ZTW">
                                         <rect key="frame" x="0.0" y="683" width="414" height="144"/>
@@ -97,6 +105,7 @@
                     <navigationItem key="navigationItem" id="e8T-7s-hla"/>
                     <connections>
                         <outlet property="btnMission" destination="y5Y-L3-qKa" id="DbE-ff-0Vx"/>
+                        <outlet property="thumbnailCollection" destination="vti-qa-Klz" id="nlD-Et-nYW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

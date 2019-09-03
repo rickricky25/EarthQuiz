@@ -11,13 +11,17 @@ import UIKit
 class OverviewViewController: UIViewController {
 
     @IBOutlet weak var imgOverview: UIImageView!
-    @IBOutlet weak var lblOverviewTitle: UILabel!
-    @IBOutlet weak var lblOverviewDescription: UILabel!
     
-    var overviewImage = "", overviewTitle = "", overviewDescription = ""
+    var character = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if character == 1 {
+            
+        } else if character == 2 {
+            
+        }
 
         // Do any additional setup after loading the view.
     }

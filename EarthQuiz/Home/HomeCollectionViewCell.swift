@@ -9,5 +9,7 @@
 import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imgThumbnail: UIImageView!
+    @IBOutlet weak var lblThumbnail: UILabel!
     
 }
