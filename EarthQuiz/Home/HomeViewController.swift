@@ -10,37 +10,23 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    @IBOutlet weak var imgMission: UIImageView!
-    @IBOutlet weak var imgCharacter: UIImageView!
+    @IBOutlet weak var btnMission: UIButton!
+    
     override func viewDidLoad() {
+        super .viewDidLoad()
+        
+//        Mission Button Color
+        btnMission.backgroundColor = #colorLiteral(red: 0.7345408797, green: 0.3556827307, blue: 0.7285602689, alpha: 1)
+        
+//        Remove Navbar
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    @IBAction func moveToMission(_ sender: Any) {
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidLoad()
-        
-        let tapGestureMission = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGesture:)))
-        imgMission.isUserInteractionEnabled = true
-        imgMission.addGestureRecognizer(tapGestureMission)
-        
-        let tapGestureCharacter = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGesture:)))
-        imgCharacter.isUserInteractionEnabled = true
-        imgCharacter.addGestureRecognizer(tapGestureCharacter)
-    }
     
-    @objc func imageTapped(tapGesture: UITapGestureRecognizer) {
-        let tappedImage = tapGesture.view as! UIImageView
-        
-        if tappedImage == imgMission {
-            let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
-            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "MissionList") as! MissionListViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
-        } else if tappedImage == imgCharacter {
-            let newStoryboard = UIStoryboard(name: "Overview", bundle: nil)
-            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "ItemOverview") as! OverviewViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
-        }
-    }
 
 }
 

@@ -27,6 +27,8 @@
 		50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388525231D1A39002FD5CC /* MissionPopupViewController.swift */; };
 		5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388529231E38D5002FD5CC /* LMapViewController.swift */; };
 		5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038852B231E3DDC002FD5CC /* TutorialViewController.swift */; };
+		63B03B62231E6F710072B721 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B61231E6F700072B721 /* roundButton.swift */; };
+		63B03B64231E75400072B721 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		50388525231D1A39002FD5CC /* MissionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPopupViewController.swift; sourceTree = "<group>"; };
 		50388529231E38D5002FD5CC /* LMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMapViewController.swift; sourceTree = "<group>"; };
 		5038852B231E3DDC002FD5CC /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		63B03B61231E6F700072B721 /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
+		63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			children = (
 				503884F5231C0F92002FD5CC /* Home.storyboard */,
 				503884F3231C0F92002FD5CC /* HomeViewController.swift */,
+				63B03B61231E6F700072B721 /* roundButton.swift */,
+				63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -228,6 +234,8 @@
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
+				63B03B62231E6F710072B721 /* roundButton.swift in Sources */,
+				63B03B64231E75400072B721 /* HomeCollectionViewCell.swift in Sources */,
 				5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */,
 				50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */,
 				5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */,
