@@ -25,6 +25,8 @@
 		5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */; };
 		50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */; };
 		50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388525231D1A39002FD5CC /* MissionPopupViewController.swift */; };
+		5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388529231E38D5002FD5CC /* LMapViewController.swift */; };
+		5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038852B231E3DDC002FD5CC /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharUnlockViewController.swift; sourceTree = "<group>"; };
 		50388525231D1A39002FD5CC /* MissionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPopupViewController.swift; sourceTree = "<group>"; };
+		50388529231E38D5002FD5CC /* LMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMapViewController.swift; sourceTree = "<group>"; };
+		5038852B231E3DDC002FD5CC /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				5038850E231C134B002FD5CC /* Overview.storyboard */,
+				50388529231E38D5002FD5CC /* LMapViewController.swift */,
 				50388517231C264D002FD5CC /* OverviewViewController.swift */,
 				50388519231C2660002FD5CC /* MapViewController.swift */,
+				5038852B231E3DDC002FD5CC /* TutorialViewController.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -222,7 +228,9 @@
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
+				5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */,
 				50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */,
+				5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */,
 				50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */,
 				503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */,
 				50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */,
