@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5035670E231EA4570020141F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035670D231EA4570020141F /* InformationViewController.swift */; };
 		503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F1231C0F92002FD5CC /* AppDelegate.swift */; };
 		503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F3231C0F92002FD5CC /* HomeViewController.swift */; };
 		503884F7231C0F92002FD5CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503884F5231C0F92002FD5CC /* Home.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5035670D231EA4570020141F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		503884EE231C0F92002FD5CC /* EarthQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503884F1231C0F92002FD5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503884F3231C0F92002FD5CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				50388511231C135A002FD5CC /* Quiz.storyboard */,
 				5038851B231C286D002FD5CC /* QuizViewController.swift */,
 				5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */,
+				5035670D231EA4570020141F /* InformationViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */,
 				5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */,
 				5038851A231C2660002FD5CC /* MapViewController.swift in Sources */,
+				5035670E231EA4570020141F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

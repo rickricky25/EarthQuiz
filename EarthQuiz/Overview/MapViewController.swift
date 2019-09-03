@@ -48,22 +48,6 @@ class MapViewController: UIViewController {
     @IBAction func mapPressed(_ sender: UIButton) {
         let newStoryboard = UIStoryboard(name: "Quiz", bundle: nil)
         let newViewController = newStoryboard.instantiateViewController(withIdentifier: "QuizView") as! QuizViewController
-        if sender.tag == 1 {
-            newViewController.quizTitle = "Dari map 1"
-            newViewController.level = 1
-        } else if sender.tag == 2 {
-            newViewController.quizTitle = "Dari map 2"
-            newViewController.level = 2
-        } else if sender.tag == 3 {
-            newViewController.quizTitle = "Dari map 3"
-            newViewController.level = 3
-        } else if sender.tag == 4 {
-            newViewController.quizTitle = "Dari map 4"
-            newViewController.level = 4
-        } else if sender.tag == 5 {
-            newViewController.quizTitle = "Dari map 5"
-            newViewController.level = 5
-        }
         self.navigationController?.pushViewController(newViewController, animated: true)
     }
     
