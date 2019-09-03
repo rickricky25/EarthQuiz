@@ -10,6 +10,7 @@ import UIKit
 
 class LMapViewController: UIViewController {
 
+    @IBOutlet weak var backgroundMap: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
