@@ -25,7 +25,7 @@ class QuizViewController: UIViewController {
             if level == levelUser {
                 UserDefaults.standard.set(level + 1, forKey: "Level")
             }
-            if level == 5 {
+            if level == 8 {
                 let newViewController = storyboard?.instantiateViewController(withIdentifier: "CharUnlock") as! CharUnlockViewController
                 self.navigationController?.pushViewController(newViewController, animated: true)
             } else {
