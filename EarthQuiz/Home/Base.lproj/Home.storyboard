@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 5" translatesAutoresizingMaskIntoConstraints="NO" id="iLd-Sa-wT8" userLabel="Background View">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="iLd-Sa-wT8" userLabel="Background View">
                                         <rect key="frame" x="0.0" y="-90" width="414" height="308"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -60,7 +60,7 @@
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 26 Copy" translatesAutoresizingMaskIntoConstraints="NO" id="rPh-o5-ZTW">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FooterEarth" translatesAutoresizingMaskIntoConstraints="NO" id="rPh-o5-ZTW">
                                         <rect key="frame" x="0.0" y="683" width="414" height="144"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -123,8 +123,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Group 26 Copy" width="414" height="105"/>
-        <image name="Group 5" width="414" height="307"/>
+        <image name="FooterEarth" width="414" height="105"/>
+        <image name="Header" width="414" height="307"/>
         <image name="seeding" width="34" height="35"/>
     </resources>
 </document>
