@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5035670E231EA4570020141F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035670D231EA4570020141F /* InformationViewController.swift */; };
+		50356717231F8C550020141F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50356716231F8C550020141F /* AVFoundation.framework */; };
+		5035671A231F9DC40020141F /* roundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50356719231F9DC40020141F /* roundView.swift */; };
+		5035671E231FD4480020141F /* AudioPaperino11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035671D231FD4480020141F /* AudioPaperino11.m4a */; };
+		50356720231FD8EB0020141F /* AudioPaperino1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035671F231FD8EB0020141F /* AudioPaperino1.m4a */; };
+		50356722231FD93F0020141F /* AudioPaperino2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356721231FD93F0020141F /* AudioPaperino2.m4a */; };
+		50356724231FD9B20020141F /* AudioPaperino3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356723231FD9B20020141F /* AudioPaperino3.m4a */; };
+		50356726231FDA510020141F /* AudioPaperino4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356725231FDA510020141F /* AudioPaperino4.m4a */; };
+		50356728231FDAC20020141F /* AudioPaperino5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356727231FDAC20020141F /* AudioPaperino5.m4a */; };
+		5035672A231FDAE70020141F /* AudioPaperino6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356729231FDAE70020141F /* AudioPaperino6.m4a */; };
+		5035672C231FDB240020141F /* AudioPaperino7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672B231FDB240020141F /* AudioPaperino7.m4a */; };
+		5035672E231FDB400020141F /* AudioPaperino8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672D231FDB400020141F /* AudioPaperino8.m4a */; };
+		50356730231FDB5A0020141F /* AudioPaperino9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672F231FDB5A0020141F /* AudioPaperino9.m4a */; };
+		50356732231FDB730020141F /* AudioPaperino10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356731231FDB730020141F /* AudioPaperino10.m4a */; };
+		50356734231FDB910020141F /* AudioPaperino11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356733231FDB910020141F /* AudioPaperino11.m4a */; };
+		50356736231FDBAB0020141F /* AudioPaperino12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356735231FDBAB0020141F /* AudioPaperino12.m4a */; };
 		503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F1231C0F92002FD5CC /* AppDelegate.swift */; };
 		503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F3231C0F92002FD5CC /* HomeViewController.swift */; };
 		503884F7231C0F92002FD5CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503884F5231C0F92002FD5CC /* Home.storyboard */; };
@@ -21,7 +36,6 @@
 		50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388513231C17BA002FD5CC /* MissionListViewController.swift */; };
 		50388516231C1A4C002FD5CC /* MissionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388515231C1A4C002FD5CC /* MissionDetailViewController.swift */; };
 		50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388517231C264D002FD5CC /* OverviewViewController.swift */; };
-		5038851A231C2660002FD5CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388519231C2660002FD5CC /* MapViewController.swift */; };
 		5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851B231C286D002FD5CC /* QuizViewController.swift */; };
 		5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */; };
 		50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */; };
@@ -34,6 +48,21 @@
 
 /* Begin PBXFileReference section */
 		5035670D231EA4570020141F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		50356716231F8C550020141F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50356719231F9DC40020141F /* roundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundView.swift; sourceTree = "<group>"; };
+		5035671D231FD4480020141F /* AudioPaperino11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino11.m4a; path = EarthQuiz/AudioPaperino11.m4a; sourceTree = SOURCE_ROOT; };
+		5035671F231FD8EB0020141F /* AudioPaperino1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino1.m4a; path = ../../../../../../Downloads/AudioPaperino1.m4a; sourceTree = "<group>"; };
+		50356721231FD93F0020141F /* AudioPaperino2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino2.m4a; path = ../../../../../../Downloads/AudioPaperino2.m4a; sourceTree = "<group>"; };
+		50356723231FD9B20020141F /* AudioPaperino3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino3.m4a; path = ../../../../../../Downloads/AudioPaperino3.m4a; sourceTree = "<group>"; };
+		50356725231FDA510020141F /* AudioPaperino4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino4.m4a; path = ../../../../../../Downloads/AudioPaperino4.m4a; sourceTree = "<group>"; };
+		50356727231FDAC20020141F /* AudioPaperino5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino5.m4a; path = ../../../../../../Downloads/AudioPaperino5.m4a; sourceTree = "<group>"; };
+		50356729231FDAE70020141F /* AudioPaperino6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino6.m4a; path = ../../../../../../Downloads/AudioPaperino6.m4a; sourceTree = "<group>"; };
+		5035672B231FDB240020141F /* AudioPaperino7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino7.m4a; path = ../../../../../../Downloads/AudioPaperino7.m4a; sourceTree = "<group>"; };
+		5035672D231FDB400020141F /* AudioPaperino8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino8.m4a; path = ../../../../../../Downloads/AudioPaperino8.m4a; sourceTree = "<group>"; };
+		5035672F231FDB5A0020141F /* AudioPaperino9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino9.m4a; path = ../../../../../../Downloads/AudioPaperino9.m4a; sourceTree = "<group>"; };
+		50356731231FDB730020141F /* AudioPaperino10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino10.m4a; path = ../../../../../../Downloads/AudioPaperino10.m4a; sourceTree = "<group>"; };
+		50356733231FDB910020141F /* AudioPaperino11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino11.m4a; path = ../../../../../../Downloads/AudioPaperino11.m4a; sourceTree = "<group>"; };
+		50356735231FDBAB0020141F /* AudioPaperino12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino12.m4a; path = ../../../../../../Downloads/AudioPaperino12.m4a; sourceTree = "<group>"; };
 		503884EE231C0F92002FD5CC /* EarthQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503884F1231C0F92002FD5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503884F3231C0F92002FD5CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +78,6 @@
 		50388513231C17BA002FD5CC /* MissionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListViewController.swift; sourceTree = "<group>"; };
 		50388515231C1A4C002FD5CC /* MissionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailViewController.swift; sourceTree = "<group>"; };
 		50388517231C264D002FD5CC /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
-		50388519231C2660002FD5CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5038851B231C286D002FD5CC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharUnlockViewController.swift; sourceTree = "<group>"; };
@@ -65,17 +93,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50356717231F8C550020141F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5035670F231F84470020141F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				50356735231FDBAB0020141F /* AudioPaperino12.m4a */,
+				50356733231FDB910020141F /* AudioPaperino11.m4a */,
+				50356731231FDB730020141F /* AudioPaperino10.m4a */,
+				5035672F231FDB5A0020141F /* AudioPaperino9.m4a */,
+				5035672D231FDB400020141F /* AudioPaperino8.m4a */,
+				5035672B231FDB240020141F /* AudioPaperino7.m4a */,
+				50356729231FDAE70020141F /* AudioPaperino6.m4a */,
+				50356727231FDAC20020141F /* AudioPaperino5.m4a */,
+				50356725231FDA510020141F /* AudioPaperino4.m4a */,
+				50356723231FD9B20020141F /* AudioPaperino3.m4a */,
+				50356721231FD93F0020141F /* AudioPaperino2.m4a */,
+				5035671F231FD8EB0020141F /* AudioPaperino1.m4a */,
+				5035671D231FD4480020141F /* AudioPaperino11.m4a */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		50356715231F8C550020141F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50356716231F8C550020141F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		503884E5231C0F92002FD5CC = {
 			isa = PBXGroup;
 			children = (
 				503884F0231C0F92002FD5CC /* EarthQuiz */,
 				503884EF231C0F92002FD5CC /* Products */,
+				50356715231F8C550020141F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +148,8 @@
 		503884F0231C0F92002FD5CC /* EarthQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				50356719231F9DC40020141F /* roundView.swift */,
+				63B03B61231E6F700072B721 /* roundButton.swift */,
 				50388510231C134F002FD5CC /* Quiz */,
 				5038850D231C1334002FD5CC /* Overview */,
 				5038850A231C131D002FD5CC /* Mission */,
@@ -118,7 +178,6 @@
 			children = (
 				503884F5231C0F92002FD5CC /* Home.storyboard */,
 				503884F3231C0F92002FD5CC /* HomeViewController.swift */,
-				63B03B61231E6F700072B721 /* roundButton.swift */,
 				63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */,
 			);
 			path = Home;
@@ -141,7 +200,6 @@
 				5038850E231C134B002FD5CC /* Overview.storyboard */,
 				50388529231E38D5002FD5CC /* LMapViewController.swift */,
 				50388517231C264D002FD5CC /* OverviewViewController.swift */,
-				50388519231C2660002FD5CC /* MapViewController.swift */,
 				5038852B231E3DDC002FD5CC /* TutorialViewController.swift */,
 			);
 			path = Overview;
@@ -150,6 +208,7 @@
 		50388510231C134F002FD5CC /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				5035670F231F84470020141F /* Audio */,
 				50388511231C135A002FD5CC /* Quiz.storyboard */,
 				5038851B231C286D002FD5CC /* QuizViewController.swift */,
 				5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */,
@@ -217,11 +276,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				503884FF231C0F92002FD5CC /* LaunchScreen.storyboard in Resources */,
+				5035672C231FDB240020141F /* AudioPaperino7.m4a in Resources */,
+				5035672E231FDB400020141F /* AudioPaperino8.m4a in Resources */,
+				50356730231FDB5A0020141F /* AudioPaperino9.m4a in Resources */,
 				503884FC231C0F92002FD5CC /* Assets.xcassets in Resources */,
 				50388512231C135A002FD5CC /* Quiz.storyboard in Resources */,
+				50356736231FDBAB0020141F /* AudioPaperino12.m4a in Resources */,
+				50356728231FDAC20020141F /* AudioPaperino5.m4a in Resources */,
 				50388508231C12DE002FD5CC /* Onboarding.storyboard in Resources */,
 				5038850C231C132F002FD5CC /* Mission.storyboard in Resources */,
+				5035671E231FD4480020141F /* AudioPaperino11.m4a in Resources */,
+				50356734231FDB910020141F /* AudioPaperino11.m4a in Resources */,
+				50356722231FD93F0020141F /* AudioPaperino2.m4a in Resources */,
+				50356724231FD9B20020141F /* AudioPaperino3.m4a in Resources */,
 				503884F7231C0F92002FD5CC /* Home.storyboard in Resources */,
+				50356720231FD8EB0020141F /* AudioPaperino1.m4a in Resources */,
+				50356726231FDA510020141F /* AudioPaperino4.m4a in Resources */,
+				5035672A231FDAE70020141F /* AudioPaperino6.m4a in Resources */,
+				50356732231FDB730020141F /* AudioPaperino10.m4a in Resources */,
 				5038850F231C134B002FD5CC /* Overview.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +307,7 @@
 			files = (
 				50388516231C1A4C002FD5CC /* MissionDetailViewController.swift in Sources */,
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
+				5035671A231F9DC40020141F /* roundView.swift in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
 				63B03B62231E6F710072B721 /* roundButton.swift in Sources */,
@@ -247,7 +320,6 @@
 				50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */,
 				50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */,
 				5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */,
-				5038851A231C2660002FD5CC /* MapViewController.swift in Sources */,
 				5035670E231EA4570020141F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

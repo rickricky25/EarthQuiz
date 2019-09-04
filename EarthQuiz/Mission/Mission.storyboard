@@ -18,85 +18,254 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plastico Missions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcW-LY-YaA">
-                                <rect key="frame" x="39" y="124" width="251" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUc-c9-iYl">
-                                <rect key="frame" x="31" y="187" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Plastico mission 1"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="nXt-S3-ExJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hoi-3q-3kP">
-                                <rect key="frame" x="31" y="253" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Plastico mission 2"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="ssK-AR-ZYJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jq2-Hw-FXs">
-                                <rect key="frame" x="31" y="319" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Plastico mission 3"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="9Sc-kO-hfl"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paperino Missions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKq-oH-K6p">
-                                <rect key="frame" x="39" y="403" width="264" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N2-9y-Kxr">
-                                <rect key="frame" x="31" y="466" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Paperino mission 1"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="T8u-Z3-eOJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbL-K4-fym">
-                                <rect key="frame" x="31" y="532" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Paperino mission 2"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="nlx-N8-HtD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bh9-Z9-8CE">
-                                <rect key="frame" x="31" y="598" width="353" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Paperino mission 3"/>
-                                <connections>
-                                    <action selector="MissionPressed:" destination="FWx-PZ-pPL" eventType="touchUpInside" id="7Fr-bn-w54"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWK-zp-S8x" customClass="roundView" customModule="EarthQuiz" customModuleProvider="target">
+                                <rect key="frame" x="23" y="221" width="368" height="354"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KI2-PQ-Gg4">
+                                        <rect key="frame" x="0.0" y="0.0" width="368" height="66"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paperino's mission" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcd-um-Fmu">
+                                                <rect key="frame" x="80.5" y="20" width="207.5" height="26.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="207.5" id="rwk-Xu-6WQ"/>
+                                                    <constraint firstAttribute="height" constant="26.5" id="zft-tf-W1T"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55664873120000002" green="0.70219916110000002" blue="0.41562476749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="KI2-PQ-Gg4" secondAttribute="height" multiplier="184:33" id="FWb-Pm-uuH"/>
+                                            <constraint firstItem="jcd-um-Fmu" firstAttribute="centerY" secondItem="KI2-PQ-Gg4" secondAttribute="centerY" id="z8g-os-RsH"/>
+                                            <constraint firstItem="jcd-um-Fmu" firstAttribute="centerX" secondItem="KI2-PQ-Gg4" secondAttribute="centerX" id="zEi-p0-DFJ"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0FN-TA-0Nn">
+                                        <rect key="frame" x="0.0" y="59" width="368" height="295"/>
+                                        <subviews>
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBL-Vc-9Ir">
+                                                <rect key="frame" x="0.0" y="0.0" width="368" height="74"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionUnlock" translatesAutoresizingMaskIntoConstraints="NO" id="AnE-F8-hRD">
+                                                        <rect key="frame" x="-6" y="-7" width="89" height="89"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bring eco bag when shopping" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5D-v5-MGb">
+                                                        <rect key="frame" x="75" y="12" width="221" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionAccept" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-n1-jkW">
+                                                        <rect key="frame" x="322" y="22" width="29" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5IW-yq-Rtq">
+                                                <rect key="frame" x="0.0" y="74" width="368" height="74"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionUnlock" translatesAutoresizingMaskIntoConstraints="NO" id="8vS-5K-3A0">
+                                                        <rect key="frame" x="-6" y="-7" width="89" height="89"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use reusable lunch bag" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcl-Up-q0Q">
+                                                        <rect key="frame" x="75" y="12" width="221" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionAccept" translatesAutoresizingMaskIntoConstraints="NO" id="t5f-gY-z8e">
+                                                        <rect key="frame" x="322" y="22" width="29" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNh-M1-f6c">
+                                                <rect key="frame" x="0.0" y="148" width="368" height="74"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionUnlock" translatesAutoresizingMaskIntoConstraints="NO" id="kuP-Ib-Ab1">
+                                                        <rect key="frame" x="-6" y="-7" width="89" height="89"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Collect &amp; reuse your paper bag" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSR-Zr-tyd">
+                                                        <rect key="frame" x="75" y="12" width="221" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionAccept" translatesAutoresizingMaskIntoConstraints="NO" id="WGj-Te-9G5">
+                                                        <rect key="frame" x="322" y="22" width="29" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ax-az-TEL">
+                                                <rect key="frame" x="0.0" y="222" width="368" height="73"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionUnlock" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-25-lUE">
+                                                        <rect key="frame" x="-6" y="-7" width="89" height="89"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use as wrapping paper" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbg-bD-S3Q">
+                                                        <rect key="frame" x="75" y="12" width="221" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MissionAccept" translatesAutoresizingMaskIntoConstraints="NO" id="Mac-12-IoD">
+                                                        <rect key="frame" x="322" y="22" width="29" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="5IW-yq-Rtq" secondAttribute="bottom" constant="147" id="M3j-tC-e08"/>
+                                            <constraint firstAttribute="bottom" secondItem="QBL-Vc-9Ir" secondAttribute="bottom" constant="221" id="R23-21-Fbh"/>
+                                            <constraint firstAttribute="bottom" secondItem="sNh-M1-f6c" secondAttribute="bottom" constant="73" id="eRJ-nP-Umo"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HWK-zp-S8x" secondAttribute="height" multiplier="184:177" id="1pS-7u-3dK"/>
+                                    <constraint firstItem="0FN-TA-0Nn" firstAttribute="leading" secondItem="HWK-zp-S8x" secondAttribute="leading" id="6Zu-RD-6ae"/>
+                                    <constraint firstAttribute="bottom" secondItem="0FN-TA-0Nn" secondAttribute="bottom" id="8iU-ql-Oyg"/>
+                                    <constraint firstAttribute="trailing" secondItem="0FN-TA-0Nn" secondAttribute="trailing" id="NdC-nh-t3c"/>
+                                    <constraint firstAttribute="height" constant="354" id="S1W-W9-WWA"/>
+                                    <constraint firstAttribute="trailing" secondItem="KI2-PQ-Gg4" secondAttribute="trailing" id="eEC-aZ-Kbt"/>
+                                    <constraint firstItem="KI2-PQ-Gg4" firstAttribute="top" secondItem="HWK-zp-S8x" secondAttribute="top" id="eJa-xr-cqn"/>
+                                    <constraint firstItem="0FN-TA-0Nn" firstAttribute="top" secondItem="HWK-zp-S8x" secondAttribute="top" constant="59" id="hmy-xk-gbz"/>
+                                    <constraint firstItem="KI2-PQ-Gg4" firstAttribute="leading" secondItem="HWK-zp-S8x" secondAttribute="leading" id="uFg-zs-nMO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqm-7f-Eo1" customClass="roundView" customModule="EarthQuiz" customModuleProvider="target">
+                                <rect key="frame" x="23" y="608" width="368" height="163"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbQ-2V-tic">
+                                        <rect key="frame" x="0.0" y="0.0" width="368" height="66"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plastico's mission" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0La-0e-Xp5">
+                                                <rect key="frame" x="85" y="20" width="198.5" height="26.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="198.5" id="BZ2-qS-78b"/>
+                                                    <constraint firstAttribute="height" constant="26.5" id="HtE-ZZ-a1E"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="0La-0e-Xp5" firstAttribute="centerY" secondItem="EbQ-2V-tic" secondAttribute="centerY" id="IkP-8L-0F4"/>
+                                            <constraint firstItem="0La-0e-Xp5" firstAttribute="centerX" secondItem="EbQ-2V-tic" secondAttribute="centerX" id="LPt-Ge-Qft"/>
+                                            <constraint firstAttribute="height" constant="66" id="MIk-fg-f3l"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4b2-WL-RQS">
+                                        <rect key="frame" x="0.0" y="65" width="368" height="98"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MissionLocked" translatesAutoresizingMaskIntoConstraints="NO" id="JFi-Wi-HWd">
+                                                <rect key="frame" x="0.0" y="9" width="89" height="89"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="JFi-Wi-HWd" secondAttribute="height" multiplier="1:1" id="GLp-Mh-B6S"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oopss! mission locked, so sad 😭" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJA-WL-o9o">
+                                                <rect key="frame" x="79" y="29" width="244" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="244" id="REF-HW-j54"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to unlock this mission?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vP6-SB-Jjk">
+                                                <rect key="frame" x="79" y="53" width="244" height="28"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="244" id="G9n-Xe-E1w"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                <color key="textColor" red="0.44688576459884644" green="0.56097579002380371" blue="0.33328482508659363" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="JFi-Wi-HWd" firstAttribute="leading" secondItem="4b2-WL-RQS" secondAttribute="leading" id="1ex-Pz-Qj9"/>
+                                            <constraint firstItem="vP6-SB-Jjk" firstAttribute="top" secondItem="4b2-WL-RQS" secondAttribute="top" constant="53" id="918-El-89W"/>
+                                            <constraint firstItem="CJA-WL-o9o" firstAttribute="top" secondItem="4b2-WL-RQS" secondAttribute="top" constant="29" id="BGO-ly-iP9"/>
+                                            <constraint firstItem="JFi-Wi-HWd" firstAttribute="top" secondItem="4b2-WL-RQS" secondAttribute="top" constant="9" id="BqV-1I-iSY"/>
+                                            <constraint firstItem="vP6-SB-Jjk" firstAttribute="leading" secondItem="4b2-WL-RQS" secondAttribute="leading" constant="79" id="GU2-9r-EMX"/>
+                                            <constraint firstAttribute="bottom" secondItem="CJA-WL-o9o" secondAttribute="bottom" constant="41" id="SBC-Tf-sZ8"/>
+                                            <constraint firstAttribute="height" constant="98" id="WUk-h3-U5k"/>
+                                            <constraint firstItem="CJA-WL-o9o" firstAttribute="leading" secondItem="4b2-WL-RQS" secondAttribute="leading" constant="79" id="gV6-ox-Z59"/>
+                                            <constraint firstAttribute="bottom" secondItem="vP6-SB-Jjk" secondAttribute="bottom" constant="17" id="xPT-WZ-t5Q"/>
+                                            <constraint firstAttribute="bottom" secondItem="JFi-Wi-HWd" secondAttribute="bottom" id="yCT-55-BLm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="2Oj-TN-YvH"/>
+                                    <constraint firstItem="EbQ-2V-tic" firstAttribute="top" secondItem="jqm-7f-Eo1" secondAttribute="top" id="GkV-Su-ANX"/>
+                                    <constraint firstItem="EbQ-2V-tic" firstAttribute="leading" secondItem="jqm-7f-Eo1" secondAttribute="leading" id="IoZ-vJ-uO6"/>
+                                    <constraint firstItem="4b2-WL-RQS" firstAttribute="leading" secondItem="jqm-7f-Eo1" secondAttribute="leading" id="NbM-jW-Ymc"/>
+                                    <constraint firstAttribute="trailing" secondItem="EbQ-2V-tic" secondAttribute="trailing" id="khA-vu-5kQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="4b2-WL-RQS" secondAttribute="trailing" id="oeE-r7-dEw"/>
+                                    <constraint firstAttribute="bottom" secondItem="4b2-WL-RQS" secondAttribute="bottom" id="qWk-Lj-uGU"/>
+                                    <constraint firstAttribute="width" secondItem="jqm-7f-Eo1" secondAttribute="height" multiplier="368:163" id="yeA-LU-0yV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jqm-7f-Eo1" firstAttribute="top" secondItem="HWK-zp-S8x" secondAttribute="bottom" constant="33" id="1aS-YJ-LQT"/>
+                            <constraint firstItem="HWK-zp-S8x" firstAttribute="leading" secondItem="7gq-nv-sAy" secondAttribute="leading" constant="23" id="7Af-lZ-CoO"/>
+                            <constraint firstItem="HWK-zp-S8x" firstAttribute="top" secondItem="7gq-nv-sAy" secondAttribute="top" constant="177" id="G9d-7E-7X0"/>
+                            <constraint firstItem="jqm-7f-Eo1" firstAttribute="leading" secondItem="7gq-nv-sAy" secondAttribute="leading" constant="23" id="GFD-Bp-Lkc"/>
+                            <constraint firstItem="5IW-yq-Rtq" firstAttribute="leading" secondItem="7gq-nv-sAy" secondAttribute="leading" constant="23" id="SEU-qH-E2J"/>
+                            <constraint firstItem="7gq-nv-sAy" firstAttribute="trailing" secondItem="jqm-7f-Eo1" secondAttribute="trailing" constant="23" id="bpy-z6-zY5"/>
+                            <constraint firstItem="7gq-nv-sAy" firstAttribute="trailing" secondItem="HWK-zp-S8x" secondAttribute="trailing" constant="23" id="q98-Yv-09d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7gq-nv-sAy"/>
                     </view>
                     <navigationItem key="navigationItem" id="LkT-Y9-dUp"/>
+                    <connections>
+                        <outlet property="lblMission1" destination="o5D-v5-MGb" id="2dD-QD-Qup"/>
+                        <outlet property="lblMission2" destination="zcl-Up-q0Q" id="y2a-tD-HUP"/>
+                        <outlet property="lblMission3" destination="VSR-Zr-tyd" id="kH8-27-zTe"/>
+                        <outlet property="lblMission4" destination="rbg-bD-S3Q" id="DDz-3J-eeJ"/>
+                        <outlet property="mission1View" destination="QBL-Vc-9Ir" id="W7R-nJ-Hap"/>
+                        <outlet property="mission2View" destination="5IW-yq-Rtq" id="DmQ-Xf-lNN"/>
+                        <outlet property="mission3View" destination="sNh-M1-f6c" id="NoG-az-4hX"/>
+                        <outlet property="mission4View" destination="8ax-az-TEL" id="BlP-IW-7Hp"/>
+                        <outlet property="roundMissionPaper" destination="HWK-zp-S8x" id="8OR-E9-zXt"/>
+                        <outlet property="roundMissionPlastic" destination="jqm-7f-Eo1" id="T3t-6k-pDy"/>
+                        <outlet property="unlockMissionView" destination="4b2-WL-RQS" id="ky8-5P-4wp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gaS-j3-89Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,37 +279,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ini detail misi dari:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afr-cE-RzW">
-                                <rect key="frame" x="51" y="120" width="184" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7m-1p-tic" customClass="roundButton" customModule="EarthQuiz" customModuleProvider="target">
+                                <rect key="frame" x="38" y="790" width="338" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02h-TM-EhI">
-                                <rect key="frame" x="51" y="157" width="313" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7m-1p-tic">
-                                <rect key="frame" x="95" y="781" width="225" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Accept Mission"/>
+                                <color key="backgroundColor" red="0.55664873123168945" green="0.70219916105270386" blue="0.41562476754188538" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <state key="normal" title="Accept Mission">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnAcceptPressed:" destination="iLI-U1-r3O" eventType="touchUpInside" id="fX1-59-5MK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRd-PZ-o5J">
+                                <rect key="frame" x="41" y="274" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Impact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWm-uA-WRU">
+                                <rect key="frame" x="41" y="382" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hacks or Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5g-JS-m86">
+                                <rect key="frame" x="41" y="578" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hK2-TG-mkl">
+                                <rect key="frame" x="34" y="295" width="342" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrg-WA-scI">
+                                <rect key="frame" x="34" y="405" width="342" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5i-qh-HX1">
+                                <rect key="frame" x="34" y="607" width="342" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02h-TM-EhI">
+                                <rect key="frame" x="41" y="104" width="362" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AVk-A8-PcH"/>
                     </view>
                     <connections>
-                        <outlet property="blurView" destination="XGA-a9-Ejz" id="AiB-47-CgV"/>
                         <outlet property="lblMissionTitle" destination="02h-TM-EhI" id="h9h-j6-omt"/>
+                        <outlet property="txtHacks" destination="s5i-qh-HX1" id="JBP-Bt-4B1"/>
+                        <outlet property="txtHowTo" destination="hK2-TG-mkl" id="tt9-gX-cx7"/>
+                        <outlet property="txtImpact" destination="vrg-WA-scI" id="YvH-li-Wdq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YRg-MK-dBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -155,25 +368,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3V8-2D-B6s">
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3V8-2D-B6s">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" red="0.0" green="0.80639276649746194" blue="0.13757542159790992" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-0X-8TU">
-                                <rect key="frame" x="70" y="208" width="274" height="449"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vx3-0X-8TU" customClass="roundView" customModule="EarthQuiz" customModuleProvider="target">
+                                <rect key="frame" x="35" y="181" width="343" height="534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpK-7a-6RU">
-                                        <rect key="frame" x="112" y="396" width="51" height="33"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpK-7a-6RU" customClass="roundButton" customModule="EarthQuiz" customModuleProvider="target">
+                                        <rect key="frame" x="25" y="443" width="292" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Button"/>
+                                        <color key="backgroundColor" red="0.55664873120000002" green="0.70219916110000002" blue="0.41562476749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="See The Mission">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="btnBackPressed:" destination="O8t-9S-k4u" eventType="touchUpInside" id="ErE-GF-jhE"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EarthSmile" translatesAutoresizingMaskIntoConstraints="NO" id="YHK-0R-2Y8">
+                                        <rect key="frame" x="35" y="80" width="272" height="272"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THANK YOU" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2A-MJ-T2S">
+                                        <rect key="frame" x="30" y="25" width="282" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="34"/>
+                                        <color key="textColor" red="0.55664873120000002" green="0.70219916110000002" blue="0.41562476749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For commiting this mission I believe you could do your  best" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRK-vX-tiQ">
+                                        <rect key="frame" x="35" y="360" width="272" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -194,4 +438,10 @@
             <point key="canvasLocation" x="2311.594202898551" y="-69.642857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="EarthSmile" width="444" height="444"/>
+        <image name="MissionAccept" width="10.666666984558105" height="11.333333015441895"/>
+        <image name="MissionLocked" width="100" height="100"/>
+        <image name="MissionUnlock" width="33.333332061767578" height="33.333332061767578"/>
+    </resources>
 </document>

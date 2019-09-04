@@ -18,6 +18,9 @@ class HomeViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super .viewDidLoad()
+//        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+//        self.navigationController?.navigationBar.barTintColor =  UIColor(displayP3Red: 0.52, green: 0.71, blue: 0.38, alpha: 1)
+
         
 //        Mission Button Color
         btnMission.backgroundColor = #colorLiteral(red: 0.7345408797, green: 0.3556827307, blue: 0.7285602689, alpha: 1)
@@ -26,9 +29,13 @@ class HomeViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
-    @IBAction func moveToMission(_ sender: Any) {
-        
+    @IBAction func btnMissionPressed(_ sender: UIButton) {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+        let newViewController = newStoryboard.instantiateViewController(withIdentifier: "MissionList") as! MissionListViewController
+        self.navigationController?.pushViewController(newViewController, animated: true)
     }
+    
 
 }
 

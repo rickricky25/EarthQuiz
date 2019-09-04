@@ -10,13 +10,16 @@ import UIKit
 
 class TutorialViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var tutorialView: UIView!
+    @IBOutlet weak var backBtn: UIButton!
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
-
+//        tutorialView.layer.cornerRadius = 25
         // Do any additional setup after loading the view.
     }
     
     @IBAction func btnBackPressed(_ sender: Any) {
+        UserDefaults.standard.set(true, forKey: "ModalMap")
         self.dismiss(animated: true, completion: nil)
     }
     
