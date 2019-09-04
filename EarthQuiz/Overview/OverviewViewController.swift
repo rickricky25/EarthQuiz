@@ -17,15 +17,15 @@ class OverviewViewController: UIViewController {
     
     var character = 0
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        if self.isMovingFromParent {
-            let newStoryboard = UIStoryboard(name: "Home", bundle: nil)
-            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
-        }
-    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        
+//        if self.isMovingFromParent {
+//            let newStoryboard = UIStoryboard(name: "Home", bundle: nil)
+//            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+//            self.navigationController?.pushViewController(newViewController, animated: true)
+//        }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
