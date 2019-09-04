@@ -12,10 +12,10 @@ class OnboardingViewController: UIViewController {
 
     @IBOutlet weak var btnOnboard: UIButton!
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         
-        UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false])
+        UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false, "FromUnlock" : false])
         btnOnboard.titleLabel?.text = "\(UserDefaults.standard.bool(forKey: "Onboarding"))"
         //print("tes")
         

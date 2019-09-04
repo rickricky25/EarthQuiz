@@ -456,6 +456,18 @@
                     </view>
                     <size key="freeformSize" width="414" height="1826"/>
                     <connections>
+                        <outlet property="btn1" destination="y5A-tT-pov" id="k48-N2-cBm"/>
+                        <outlet property="btn10" destination="FCa-Ak-vDw" id="J44-Zp-fDA"/>
+                        <outlet property="btn11" destination="NoR-EA-MvL" id="Fl2-dA-E8b"/>
+                        <outlet property="btn12" destination="YZS-7t-7mT" id="6XY-XT-GU7"/>
+                        <outlet property="btn2" destination="gCy-WN-HjO" id="Lvj-Zb-SB7"/>
+                        <outlet property="btn3" destination="RcV-cr-WXZ" id="ULq-Oc-3oM"/>
+                        <outlet property="btn4" destination="VdA-2E-blD" id="jLk-2M-QnS"/>
+                        <outlet property="btn5" destination="ixq-Sp-uwS" id="XfR-wI-9XT"/>
+                        <outlet property="btn6" destination="vhD-gY-CrA" id="OQp-Wu-FcY"/>
+                        <outlet property="btn7" destination="KM1-7Y-hJu" id="5EW-y4-ont"/>
+                        <outlet property="btn8" destination="J1v-Vv-SDF" id="XAr-9A-Xez"/>
+                        <outlet property="btn9" destination="ws3-si-kJE" id="PuM-R9-LnF"/>
                         <outlet property="scrollView" destination="se9-Ll-sFd" id="gY7-g0-RKR"/>
                     </connections>
                 </viewController>
