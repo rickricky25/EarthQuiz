@@ -35,13 +35,13 @@ class MissionListViewController: UIViewController {
         mission1View.addGestureRecognizer(tapGesture1)
         
         let tapGesture2 = UITapGestureRecognizer(target: self, action: #selector(clickMission(_:)))
-        mission1View.addGestureRecognizer(tapGesture2)
+        mission2View.addGestureRecognizer(tapGesture2)
         
         let tapGesture3 = UITapGestureRecognizer(target: self, action: #selector(clickMission(_:)))
-        mission1View.addGestureRecognizer(tapGesture3)
+        mission3View.addGestureRecognizer(tapGesture3)
         
         let tapGesture4 = UITapGestureRecognizer(target: self, action: #selector(clickMission(_:)))
-        mission1View.addGestureRecognizer(tapGesture4)
+        mission4View.addGestureRecognizer(tapGesture4)
     }
     
     @objc func clickMission(_ sender: UITapGestureRecognizer) {
