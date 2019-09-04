@@ -38,41 +38,37 @@ class QuizViewController: UIViewController {
             btnAnswerTop.setTitle("3 years", for: .normal)
             btnAnswerBottom.setTitle("5 years", for: .normal)
         } else if level == 4 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "Tree needs to be felled, processed and moved to a location for transport. Do you know what people use to called this process?"
+            btnAnswerTop.setTitle("Pulping", for: .normal)
+            btnAnswerBottom.setTitle("Logging", for: .normal)
         } else if level == 5 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "Even that I’m made from tree, it need to be process before I can be transform into a paper. Do you know the main material to produce me?"
+            btnAnswerTop.setTitle("Pulp", for: .normal)
+            btnAnswerBottom.setTitle("Polyethylene", for: .normal)
         } else if level == 6 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "There’s a lot of water is needed to produce me, can you guess how much is it to made each of me?"
+            btnAnswerTop.setTitle("1 gallon", for: .normal)
+            btnAnswerBottom.setTitle("1 liter", for: .normal)
         } else if level == 7 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "If we take a look to the air side, which one do you think produce more pollutant?"
+            btnAnswerTop.setTitle("Paper", for: .normal)
+            btnAnswerBottom.setTitle("Plastic", for: .normal)
         } else if level == 8 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "Can you guess how much CO2 sent to the atmosphere to produce me?"
+            btnAnswerTop.setTitle("10 kg CO2 per 1000 paper bags", for: .normal)
+            btnAnswerBottom.setTitle("30 kg CO2 per 1000 paper bags", for: .normal)
         } else if level == 9 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "There’s several reason that make people choosing me over plastic. First my degrade-ability. What do you think about it?"
+            btnAnswerTop.setTitle("Agree, that’s one of paper power.", for: .normal)
+            btnAnswerBottom.setTitle("Well, i don’t think so.", for: .normal)
         } else if level == 10 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "Second, what do you think about my reusability?"
+            btnAnswerTop.setTitle("Agree, that’s another power of paper!", for: .normal)
+            btnAnswerBottom.setTitle("I doubt that.", for: .normal)
         } else if level == 11 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
-        } else if level == 12 {
-            lblQuizQuestion.text = "Do you know how many trees to cut down to produce me?"
-            btnAnswerTop.setTitle("100.000 every day", for: .normal)
-            btnAnswerBottom.setTitle("100.000 every hour", for: .normal)
+            lblQuizQuestion.text = "Third, my recycle-ability. What do you think about it?"
+            btnAnswerTop.setTitle("Agree, that’s why I choose paper.", for: .normal)
+            btnAnswerBottom.setTitle("No, I don’t think so.", for: .normal)
         }
     }
     
@@ -99,9 +95,9 @@ class QuizViewController: UIViewController {
             }
         } else if level == 2 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "That’s a lot of tree, but in fact there’s more than that."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Smart! That’s a really big number right."
             }
         } else if level == 3 {
             if sender.tag == 1 {
@@ -111,51 +107,51 @@ class QuizViewController: UIViewController {
             }
         } else if level == 4 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "Sorry, but the process named logging."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Yes, you’re right."
             }
         } else if level == 5 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "Wow, you know a lot about me."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Hmm, polyethylene is the main materials to create plastico."
             }
         } else if level == 6 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "True, nice guess."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "whoops, that’s not enough."
             }
         } else if level == 7 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "That’s right!"
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Most people are thinking the same way with you, but paper contribute more air pollutant to our earth."
             }
         } else if level == 8 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "Oh bad, in fact it’s 3 times more than what you think."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "True! It’s horrible, isn’t it?"
             }
         } else if level == 9 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "True, and here’s the fact."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Actually, I am. but here’s the fact."
             }
         } else if level == 10 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "True, and here’s the fact."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Actually, I am. but here’s the fact."
             }
         } else if level == 11 {
             if sender.tag == 1 {
-                lblQuizQuestion.text = "Exactly! I'm the baby of tree."
+                lblQuizQuestion.text = "True, and here’s the fact."
             } else if sender.tag == 2 {
-                lblQuizQuestion.text = "Oops, farm sounds nice but that's not where I came from."
+                lblQuizQuestion.text = "Actually, I am. but here’s the fact."
             }
         }
     }
