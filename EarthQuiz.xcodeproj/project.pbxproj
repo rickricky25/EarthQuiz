@@ -7,21 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5026538723202F180081D787 /* AudioPaperino11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5026538623202F180081D787 /* AudioPaperino11.m4a */; };
 		5035670E231EA4570020141F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035670D231EA4570020141F /* InformationViewController.swift */; };
 		50356717231F8C550020141F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50356716231F8C550020141F /* AVFoundation.framework */; };
 		5035671A231F9DC40020141F /* roundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50356719231F9DC40020141F /* roundView.swift */; };
-		50356720231FD8EB0020141F /* AudioPaperino1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035671F231FD8EB0020141F /* AudioPaperino1.m4a */; };
-		50356722231FD93F0020141F /* AudioPaperino2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356721231FD93F0020141F /* AudioPaperino2.m4a */; };
-		50356724231FD9B20020141F /* AudioPaperino3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356723231FD9B20020141F /* AudioPaperino3.m4a */; };
-		50356726231FDA510020141F /* AudioPaperino4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356725231FDA510020141F /* AudioPaperino4.m4a */; };
-		50356728231FDAC20020141F /* AudioPaperino5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356727231FDAC20020141F /* AudioPaperino5.m4a */; };
-		5035672A231FDAE70020141F /* AudioPaperino6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356729231FDAE70020141F /* AudioPaperino6.m4a */; };
-		5035672C231FDB240020141F /* AudioPaperino7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672B231FDB240020141F /* AudioPaperino7.m4a */; };
-		5035672E231FDB400020141F /* AudioPaperino8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672D231FDB400020141F /* AudioPaperino8.m4a */; };
-		50356730231FDB5A0020141F /* AudioPaperino9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5035672F231FDB5A0020141F /* AudioPaperino9.m4a */; };
-		50356732231FDB730020141F /* AudioPaperino10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356731231FDB730020141F /* AudioPaperino10.m4a */; };
-		50356736231FDBAB0020141F /* AudioPaperino12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356735231FDBAB0020141F /* AudioPaperino12.m4a */; };
 		503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F1231C0F92002FD5CC /* AppDelegate.swift */; };
 		503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F3231C0F92002FD5CC /* HomeViewController.swift */; };
 		503884F7231C0F92002FD5CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503884F5231C0F92002FD5CC /* Home.storyboard */; };
@@ -41,6 +29,17 @@
 		50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388525231D1A39002FD5CC /* MissionPopupViewController.swift */; };
 		5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388529231E38D5002FD5CC /* LMapViewController.swift */; };
 		5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038852B231E3DDC002FD5CC /* TutorialViewController.swift */; };
+		50F94317232036B800121D82 /* AudioPaperino6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F9430C232036B700121D82 /* AudioPaperino6.m4a */; };
+		50F94318232036B800121D82 /* AudioPaperino9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F9430D232036B700121D82 /* AudioPaperino9.m4a */; };
+		50F94319232036B800121D82 /* AudioPaperino2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F9430E232036B700121D82 /* AudioPaperino2.m4a */; };
+		50F9431A232036B800121D82 /* AudioPaperino12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F9430F232036B700121D82 /* AudioPaperino12.m4a */; };
+		50F9431B232036B800121D82 /* AudioPaperino4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94310232036B700121D82 /* AudioPaperino4.m4a */; };
+		50F9431C232036B800121D82 /* AudioPaperino8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94311232036B700121D82 /* AudioPaperino8.m4a */; };
+		50F9431D232036B800121D82 /* AudioPaperino10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94312232036B800121D82 /* AudioPaperino10.m4a */; };
+		50F9431E232036B800121D82 /* AudioPaperino1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94313232036B800121D82 /* AudioPaperino1.m4a */; };
+		50F9431F232036B800121D82 /* AudioPaperino5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94314232036B800121D82 /* AudioPaperino5.m4a */; };
+		50F94320232036B800121D82 /* AudioPaperino3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94315232036B800121D82 /* AudioPaperino3.m4a */; };
+		50F94321232036B800121D82 /* AudioPaperino7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50F94316232036B800121D82 /* AudioPaperino7.m4a */; };
 		63B03B62231E6F710072B721 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B61231E6F700072B721 /* roundButton.swift */; };
 		63B03B64231E75400072B721 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */; };
 		63B03B662320150B0072B721 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B652320150B0072B721 /* Slide.swift */; };
@@ -48,21 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5026538623202F180081D787 /* AudioPaperino11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino11.m4a; path = ../../../../../../Downloads/AudioPaperino11.m4a; sourceTree = "<group>"; };
 		5035670D231EA4570020141F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		50356716231F8C550020141F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		50356719231F9DC40020141F /* roundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundView.swift; sourceTree = "<group>"; };
-		5035671F231FD8EB0020141F /* AudioPaperino1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino1.m4a; path = ../../../../../../Downloads/AudioPaperino1.m4a; sourceTree = "<group>"; };
-		50356721231FD93F0020141F /* AudioPaperino2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino2.m4a; path = ../../../../../../Downloads/AudioPaperino2.m4a; sourceTree = "<group>"; };
-		50356723231FD9B20020141F /* AudioPaperino3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino3.m4a; path = ../../../../../../Downloads/AudioPaperino3.m4a; sourceTree = "<group>"; };
-		50356725231FDA510020141F /* AudioPaperino4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino4.m4a; path = ../../../../../../Downloads/AudioPaperino4.m4a; sourceTree = "<group>"; };
-		50356727231FDAC20020141F /* AudioPaperino5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino5.m4a; path = ../../../../../../Downloads/AudioPaperino5.m4a; sourceTree = "<group>"; };
-		50356729231FDAE70020141F /* AudioPaperino6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino6.m4a; path = ../../../../../../Downloads/AudioPaperino6.m4a; sourceTree = "<group>"; };
-		5035672B231FDB240020141F /* AudioPaperino7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino7.m4a; path = ../../../../../../Downloads/AudioPaperino7.m4a; sourceTree = "<group>"; };
-		5035672D231FDB400020141F /* AudioPaperino8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino8.m4a; path = ../../../../../../Downloads/AudioPaperino8.m4a; sourceTree = "<group>"; };
-		5035672F231FDB5A0020141F /* AudioPaperino9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino9.m4a; path = ../../../../../../Downloads/AudioPaperino9.m4a; sourceTree = "<group>"; };
-		50356731231FDB730020141F /* AudioPaperino10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino10.m4a; path = ../../../../../../Downloads/AudioPaperino10.m4a; sourceTree = "<group>"; };
-		50356735231FDBAB0020141F /* AudioPaperino12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino12.m4a; path = ../../../../../../Downloads/AudioPaperino12.m4a; sourceTree = "<group>"; };
 		503884EE231C0F92002FD5CC /* EarthQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503884F1231C0F92002FD5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503884F3231C0F92002FD5CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +71,17 @@
 		50388525231D1A39002FD5CC /* MissionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPopupViewController.swift; sourceTree = "<group>"; };
 		50388529231E38D5002FD5CC /* LMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMapViewController.swift; sourceTree = "<group>"; };
 		5038852B231E3DDC002FD5CC /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		50F9430C232036B700121D82 /* AudioPaperino6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino6.m4a; sourceTree = "<group>"; };
+		50F9430D232036B700121D82 /* AudioPaperino9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino9.m4a; sourceTree = "<group>"; };
+		50F9430E232036B700121D82 /* AudioPaperino2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino2.m4a; sourceTree = "<group>"; };
+		50F9430F232036B700121D82 /* AudioPaperino12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino12.m4a; sourceTree = "<group>"; };
+		50F94310232036B700121D82 /* AudioPaperino4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino4.m4a; sourceTree = "<group>"; };
+		50F94311232036B700121D82 /* AudioPaperino8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino8.m4a; sourceTree = "<group>"; };
+		50F94312232036B800121D82 /* AudioPaperino10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino10.m4a; sourceTree = "<group>"; };
+		50F94313232036B800121D82 /* AudioPaperino1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino1.m4a; sourceTree = "<group>"; };
+		50F94314232036B800121D82 /* AudioPaperino5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino5.m4a; sourceTree = "<group>"; };
+		50F94315232036B800121D82 /* AudioPaperino3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino3.m4a; sourceTree = "<group>"; };
+		50F94316232036B800121D82 /* AudioPaperino7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioPaperino7.m4a; sourceTree = "<group>"; };
 		63B03B61231E6F700072B721 /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
 		63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		63B03B652320150B0072B721 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
@@ -105,18 +103,17 @@
 		5035670F231F84470020141F /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				50356735231FDBAB0020141F /* AudioPaperino12.m4a */,
-				5026538623202F180081D787 /* AudioPaperino11.m4a */,
-				50356731231FDB730020141F /* AudioPaperino10.m4a */,
-				5035672F231FDB5A0020141F /* AudioPaperino9.m4a */,
-				5035672D231FDB400020141F /* AudioPaperino8.m4a */,
-				5035672B231FDB240020141F /* AudioPaperino7.m4a */,
-				50356729231FDAE70020141F /* AudioPaperino6.m4a */,
-				50356727231FDAC20020141F /* AudioPaperino5.m4a */,
-				50356725231FDA510020141F /* AudioPaperino4.m4a */,
-				50356723231FD9B20020141F /* AudioPaperino3.m4a */,
-				50356721231FD93F0020141F /* AudioPaperino2.m4a */,
-				5035671F231FD8EB0020141F /* AudioPaperino1.m4a */,
+				50F94313232036B800121D82 /* AudioPaperino1.m4a */,
+				50F9430E232036B700121D82 /* AudioPaperino2.m4a */,
+				50F94315232036B800121D82 /* AudioPaperino3.m4a */,
+				50F94310232036B700121D82 /* AudioPaperino4.m4a */,
+				50F94314232036B800121D82 /* AudioPaperino5.m4a */,
+				50F9430C232036B700121D82 /* AudioPaperino6.m4a */,
+				50F94316232036B800121D82 /* AudioPaperino7.m4a */,
+				50F94311232036B700121D82 /* AudioPaperino8.m4a */,
+				50F9430D232036B700121D82 /* AudioPaperino9.m4a */,
+				50F94312232036B800121D82 /* AudioPaperino10.m4a */,
+				50F9430F232036B700121D82 /* AudioPaperino12.m4a */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -279,25 +276,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				503884FF231C0F92002FD5CC /* LaunchScreen.storyboard in Resources */,
-				5035672C231FDB240020141F /* AudioPaperino7.m4a in Resources */,
-				5035672E231FDB400020141F /* AudioPaperino8.m4a in Resources */,
-				50356730231FDB5A0020141F /* AudioPaperino9.m4a in Resources */,
 				503884FC231C0F92002FD5CC /* Assets.xcassets in Resources */,
+				50F9431F232036B800121D82 /* AudioPaperino5.m4a in Resources */,
+				50F9431C232036B800121D82 /* AudioPaperino8.m4a in Resources */,
+				50F9431E232036B800121D82 /* AudioPaperino1.m4a in Resources */,
+				50F94320232036B800121D82 /* AudioPaperino3.m4a in Resources */,
+				50F9431A232036B800121D82 /* AudioPaperino12.m4a in Resources */,
+				50F94317232036B800121D82 /* AudioPaperino6.m4a in Resources */,
+				50F94319232036B800121D82 /* AudioPaperino2.m4a in Resources */,
 				50388512231C135A002FD5CC /* Quiz.storyboard in Resources */,
-				5026538723202F180081D787 /* AudioPaperino11.m4a in Resources */,
-				50356736231FDBAB0020141F /* AudioPaperino12.m4a in Resources */,
-				50356728231FDAC20020141F /* AudioPaperino5.m4a in Resources */,
+				50F9431B232036B800121D82 /* AudioPaperino4.m4a in Resources */,
 				50388508231C12DE002FD5CC /* Onboarding.storyboard in Resources */,
+				50F94321232036B800121D82 /* AudioPaperino7.m4a in Resources */,
 				5038850C231C132F002FD5CC /* Mission.storyboard in Resources */,
-				50356722231FD93F0020141F /* AudioPaperino2.m4a in Resources */,
-				50356724231FD9B20020141F /* AudioPaperino3.m4a in Resources */,
 				503884F7231C0F92002FD5CC /* Home.storyboard in Resources */,
-				50356720231FD8EB0020141F /* AudioPaperino1.m4a in Resources */,
-				50356726231FDA510020141F /* AudioPaperino4.m4a in Resources */,
+				50F94318232036B800121D82 /* AudioPaperino9.m4a in Resources */,
 				63B03B68232018740072B721 /* Slide.xib in Resources */,
-				5035672A231FDAE70020141F /* AudioPaperino6.m4a in Resources */,
-				50356732231FDB730020141F /* AudioPaperino10.m4a in Resources */,
 				5038850F231C134B002FD5CC /* Overview.storyboard in Resources */,
+				50F9431D232036B800121D82 /* AudioPaperino10.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
