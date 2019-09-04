@@ -22,10 +22,16 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
     
     var slides:[Slide] = [];
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
 //        slide
+        slides = createSlides()
         
+        pageControl.numberOfPages = slides.count
+        pageControl.currentPage = 0
+        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.showsVerticalScrollIndicator = false
+        view.bringSubviewToFront(pageControl)
 //
         
         UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false, "FromUnlock" : false])
@@ -47,7 +53,22 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
     
 //    slide
     func createSlides() -> [Slide] {
+        let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide1.imageView.image = UIImage(named: "onboard1")
+        slide1.labelTitle.text = "Life Cycle"
+        slide1.labelDesc.text = "Did you know how much Co2  to make plastic? Find out by following life cycle of it!"
         
+        let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide1.imageView.image = UIImage(named: "onboard2")
+        slide1.labelTitle.text = "Fun Quiz"
+        slide1.labelDesc.text = "Test how far your knowledges about environment sustainability."
+        
+        let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide1.imageView.image = UIImage(named: "onboard3")
+        slide1.labelTitle.text = "Mission from Earth"
+        slide1.labelDesc.text = "Everyone can be smart. But who is smart enough to complete missions from earth? Dare to try?"
+        
+        return [slide1, slide2, slide3]
     }
 //
     
