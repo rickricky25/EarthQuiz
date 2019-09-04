@@ -20,10 +20,6 @@ class QuizViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-
-        self.navigationController?.navigationBar.prefersLargeTitles = false
-        self.navigationController?.navigationItem.largeTitleDisplayMode = .never
         self.title = "Level \(level)"
         btnAnswerBottom.isHidden = false
         btnAnswerTop.isHidden = false

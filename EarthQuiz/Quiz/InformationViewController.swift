@@ -17,7 +17,6 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         self.title =  "Information \(level)"
-        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 
         
         imgInformation.image = UIImage(named: "InfoPaperino\(level)")
