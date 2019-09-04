@@ -24,8 +24,7 @@ class MissionListViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundMissionList")!)
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundMissionList")!)        
 //        self.navigationController.
         
         roundMissionPaper.layer.shadowColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
