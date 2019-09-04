@@ -15,7 +15,6 @@ class TutorialViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         tutorialView.layer.cornerRadius = 25
-        backBtn.layer.cornerRadius = 5
         // Do any additional setup after loading the view.
     }
     
