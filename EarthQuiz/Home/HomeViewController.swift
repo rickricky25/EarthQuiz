@@ -26,9 +26,13 @@ class HomeViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
-    @IBAction func moveToMission(_ sender: Any) {
-        
+    @IBAction func btnMissionPressed(_ sender: UIButton) {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+        let newViewController = newStoryboard.instantiateViewController(withIdentifier: "MissionList") as! MissionListViewController
+        self.navigationController?.pushViewController(newViewController, animated: true)
     }
+    
 
 }
 

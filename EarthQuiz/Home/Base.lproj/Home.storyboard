@@ -95,6 +95,9 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnMissionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tPG-6k-FJJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </view>
@@ -136,4 +139,5 @@
         <image name="Header" width="414" height="307"/>
         <image name="seeding" width="34" height="35"/>
     </resources>
+    <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
