@@ -35,6 +35,15 @@ class LMapViewController: UIViewController {
         }
     }
     
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        
+//        if self.isMovingFromParent {
+//            let newViewController = storyboard?.instantiateViewController(withIdentifier: "ItemOverview") as! OverviewViewController
+//            self.navigationController?.pushViewController(newViewController, animated: true)
+//        }
+//    }
+    
     override func viewDidAppear(_ animated: Bool) {
         let userLevel = UserDefaults.standard.integer(forKey: "Level")
         var bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom)
