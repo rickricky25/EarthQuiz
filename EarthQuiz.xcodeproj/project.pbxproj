@@ -10,6 +10,7 @@
 		5035670E231EA4570020141F /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035670D231EA4570020141F /* InformationViewController.swift */; };
 		50356714231F8C1B0020141F /* AudioPaperino11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50356713231F8C1B0020141F /* AudioPaperino11.m4a */; };
 		50356717231F8C550020141F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50356716231F8C550020141F /* AVFoundation.framework */; };
+		5035671A231F9DC40020141F /* roundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50356719231F9DC40020141F /* roundView.swift */; };
 		503884F2231C0F92002FD5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F1231C0F92002FD5CC /* AppDelegate.swift */; };
 		503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884F3231C0F92002FD5CC /* HomeViewController.swift */; };
 		503884F7231C0F92002FD5CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503884F5231C0F92002FD5CC /* Home.storyboard */; };
@@ -38,6 +39,7 @@
 		5035670D231EA4570020141F /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		50356713231F8C1B0020141F /* AudioPaperino11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = AudioPaperino11.m4a; path = ../../../../../../Downloads/AudioPaperino11.m4a; sourceTree = "<group>"; };
 		50356716231F8C550020141F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50356719231F9DC40020141F /* roundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundView.swift; sourceTree = "<group>"; };
 		503884EE231C0F92002FD5CC /* EarthQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503884F1231C0F92002FD5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		503884F3231C0F92002FD5CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		50388510231C134F002FD5CC /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				50356719231F9DC40020141F /* roundView.swift */,
 				63B03B61231E6F700072B721 /* roundButton.swift */,
 				5035670F231F84470020141F /* Audio */,
 				50388511231C135A002FD5CC /* Quiz.storyboard */,
@@ -259,6 +262,7 @@
 			files = (
 				50388516231C1A4C002FD5CC /* MissionDetailViewController.swift in Sources */,
 				503884FA231C0F92002FD5CC /* EarthQuiz.xcdatamodeld in Sources */,
+				5035671A231F9DC40020141F /* roundView.swift in Sources */,
 				503884F4231C0F92002FD5CC /* HomeViewController.swift in Sources */,
 				5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */,
 				63B03B62231E6F710072B721 /* roundButton.swift in Sources */,
