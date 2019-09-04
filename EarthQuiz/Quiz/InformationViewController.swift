@@ -75,13 +75,20 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
             lblInformation.text = "Yes, I am reuse-able, but you need to be extra careful while using me. I’m not strong enough to bring heavy, watery and oily stuff. This make me more disposable than plastic. I’m too porous, and I’m done as soon as food or oil or water soak into my fibres. I have less reuse potential, my friend."
         } else if level == 11 {
             lblInformation.text = "I’d love the idea to recycle me. But do you know to do that, I need to be re-pulped, which require more toxic chemical, huge machinary, more fossil fuel and more water. Recycled version of me produces more pollution than making the new me. It just like you save a tree on one hand but pollute our air and rivers on the other. What’s the point?"
+        } else if level == 12 {
+            lblInformation.text = "It is true that I’m made from tree and tree is a sustainable resource but the energy and chemicals used to make me is not. I’m not blaming you, there’s a possibility you are clueless about all of this, and assume that you’re choosing the right bag to save the environment.\n\nNow, you know it. My question, would you make a change?"
         }
         
         // Do any additional setup after loading the view.
     }
     
     @IBAction func btnMapPressed(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-        self.navigationController?.popViewController(animated: true)
+        if level == 12 {
+            let newViewController = storyboard?.instantiateViewController(withIdentifier: "CharUnlock") as! CharUnlockViewController
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        } else {
+            self.navigationController?.popViewController(animated: true)
+            self.navigationController?.popViewController(animated: true)
+        }
     }
 }

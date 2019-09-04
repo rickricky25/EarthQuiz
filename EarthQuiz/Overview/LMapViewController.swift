@@ -14,15 +14,46 @@ class LMapViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
-        let modalViewController = storyboard?.instantiateViewController(withIdentifier: "Tutorial") as! TutorialViewController
-        modalViewController.modalPresentationStyle = .overCurrentContext
-        modalViewController.modalTransitionStyle = .crossDissolve
-        present(modalViewController, animated: true, completion: nil)
-        
+        let boolMap = UserDefaults.standard.bool(forKey: "ModalMap")
+        if boolMap == false {
+            let modalViewController = storyboard?.instantiateViewController(withIdentifier: "Tutorial") as! TutorialViewController
+            modalViewController.modalPresentationStyle = .overCurrentContext
+            modalViewController.modalTransitionStyle = .crossDissolve
+            present(modalViewController, animated: true, completion: nil)
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom)
+        let userLevel = UserDefaults.standard.integer(forKey: "Level")
+        var bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom)
+        switch userLevel {
+        case 1:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 100)
+        case 2:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 150)
+        case 3:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 250)
+        case 4:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 400)
+        case 5:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 500)
+        case 6:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 650)
+        case 7:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 800)
+        case 8:
+            bottomOffset = CGPoint(x: 0, y: scrollView.contentSize.height - scrollView.bounds.height + scrollView.contentInset.bottom - 900)
+        case 9:
+            bottomOffset = CGPoint(x: 0, y: 0)
+        case 10:
+            bottomOffset = CGPoint(x: 0, y: 0)
+        case 11:
+            bottomOffset = CGPoint(x: 0, y: 0)
+        case 12:
+            bottomOffset = CGPoint(x: 0, y: 0)
+        default:
+            return
+        }
         scrollView.setContentOffset(bottomOffset, animated: true)
         
         super.viewDidLoad()
@@ -30,24 +61,14 @@ class LMapViewController: UIViewController {
     
     @IBAction func btnLevelPressed(_ sender: UIButton) {
         let newStoryboard = UIStoryboard(name: "Quiz", bundle: nil)
-        let newViewController = newStoryboard.instantiateViewController(withIdentifier: "QuizView") as! QuizViewController
-        if sender.tag == 1 {
-            newViewController.level = 1
-        } else if sender.tag == 2 {
-            newViewController.level = 2
-        } else if sender.tag == 3 {
-            newViewController.level = 3
-        } else if sender.tag == 4 {
-            newViewController.level = 4
-        } else if sender.tag == 5 {
-            newViewController.level = 6
-        } else if sender.tag == 6 {
-            newViewController.level = 6
-        } else if sender.tag == 7 {
-            newViewController.level = 7
-        } else if sender.tag == 8 {
-            newViewController.level = 8
+        if sender.tag < 12 {
+            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "QuizView") as! QuizViewController
+            newViewController.level = sender.tag
+            self.navigationController?.pushViewController(newViewController, animated: true)
+        } else if sender.tag == 12 {
+            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "Information") as! InformationViewController
+            newViewController.level = sender.tag
+            self.navigationController?.pushViewController(newViewController, animated: true)
         }
-        self.navigationController?.pushViewController(newViewController, animated: true)
     }
 }

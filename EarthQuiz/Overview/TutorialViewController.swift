@@ -19,6 +19,7 @@ class TutorialViewController: UIViewController {
     }
     
     @IBAction func btnBackPressed(_ sender: Any) {
+        UserDefaults.standard.set(true, forKey: "ModalMap")
         self.dismiss(animated: true, completion: nil)
     }
     

@@ -36,7 +36,6 @@
 		50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388513231C17BA002FD5CC /* MissionListViewController.swift */; };
 		50388516231C1A4C002FD5CC /* MissionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388515231C1A4C002FD5CC /* MissionDetailViewController.swift */; };
 		50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388517231C264D002FD5CC /* OverviewViewController.swift */; };
-		5038851A231C2660002FD5CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50388519231C2660002FD5CC /* MapViewController.swift */; };
 		5038851C231C286D002FD5CC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851B231C286D002FD5CC /* QuizViewController.swift */; };
 		5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */; };
 		50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */; };
@@ -79,7 +78,6 @@
 		50388513231C17BA002FD5CC /* MissionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListViewController.swift; sourceTree = "<group>"; };
 		50388515231C1A4C002FD5CC /* MissionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailViewController.swift; sourceTree = "<group>"; };
 		50388517231C264D002FD5CC /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
-		50388519231C2660002FD5CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5038851B231C286D002FD5CC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		5038851F231CDF70002FD5CC /* CharUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharUnlockViewController.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 				5038850E231C134B002FD5CC /* Overview.storyboard */,
 				50388529231E38D5002FD5CC /* LMapViewController.swift */,
 				50388517231C264D002FD5CC /* OverviewViewController.swift */,
-				50388519231C2660002FD5CC /* MapViewController.swift */,
 				5038852B231E3DDC002FD5CC /* TutorialViewController.swift */,
 			);
 			path = Overview;
@@ -323,7 +320,6 @@
 				50388514231C17BA002FD5CC /* MissionListViewController.swift in Sources */,
 				50388518231C264D002FD5CC /* OverviewViewController.swift in Sources */,
 				5038851E231C2C9B002FD5CC /* OnboardingViewController.swift in Sources */,
-				5038851A231C2660002FD5CC /* MapViewController.swift in Sources */,
 				5035670E231EA4570020141F /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
