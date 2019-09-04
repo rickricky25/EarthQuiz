@@ -28,7 +28,7 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
         
 //
         
-        UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false])
+        UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false, "FromUnlock" : false])
         btnOnboard.titleLabel?.text = "\(UserDefaults.standard.bool(forKey: "Onboarding"))"
         //print("tes")
         

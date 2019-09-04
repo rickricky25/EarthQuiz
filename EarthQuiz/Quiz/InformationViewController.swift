@@ -22,12 +22,18 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
         
         imgInformation.image = UIImage(named: "InfoPaperino\(level)")
         
+//        if UserDefaults.standard.bool(forKey: "FromUnlock") {
+//            let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+//            let newViewControl = newStoryboard.instantiateViewController(withIdentifier: "MissionList")
+//            self.navigationController?.pushViewController(newViewControl, animated: true)
+//            UserDefaults.standard.set(false, forKey: "FromUnlock")
+//        }
         
         guard let file = Bundle.main.path(forResource: "AudioPaperino\(level)", ofType: "m4a") else {
             print("file not found")
             return
         }
-        do{
+        do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
             try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
             
@@ -35,7 +41,7 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
             player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: file))
             guard let playerTemp = player else { return }
             playerTemp.play()
-        }catch{
+        } catch  {
             print(error.localizedDescription)
         }
 
@@ -84,6 +90,11 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBAction func btnMapPressed(_ sender: UIButton) {
         if level == 12 {
+            
+//            let modalViewController = storyboard?.instantiateViewController(withIdentifier: "CharUnlock") as! CharUnlockViewController
+//            modalViewController.modalPresentationStyle = .overCurrentContext
+//            modalViewController.modalTransitionStyle = .crossDissolve
+//            present(modalViewController, animated: true, completion: nil)
             let newViewController = storyboard?.instantiateViewController(withIdentifier: "CharUnlock") as! CharUnlockViewController
             self.navigationController?.pushViewController(newViewController, animated: true)
         } else {
