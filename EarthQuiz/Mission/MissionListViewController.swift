@@ -14,6 +14,7 @@ class MissionListViewController: UIViewController {
     @IBOutlet weak var mission2View: UIView!
     @IBOutlet weak var mission3View: UIView!
     @IBOutlet weak var mission4View: UIView!
+    @IBOutlet weak var unlockMissionView: UIView!
     @IBOutlet weak var lblMission1: UILabel!
     @IBOutlet weak var lblMission2: UILabel!
     @IBOutlet weak var lblMission3: UILabel!
@@ -23,6 +24,8 @@ class MissionListViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundMissionList")!)
+        
         roundMissionPaper.layer.shadowColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         roundMissionPaper.layer.shadowRadius = 20
         roundMissionPaper.layer.shadowOpacity = 1
@@ -42,6 +45,9 @@ class MissionListViewController: UIViewController {
         
         let tapGesture4 = UITapGestureRecognizer(target: self, action: #selector(clickMission(_:)))
         mission4View.addGestureRecognizer(tapGesture4)
+        
+        let tapGesture5 = UITapGestureRecognizer(target: self, action: #selector(clickUnlock(_:)))
+        unlockMissionView.addGestureRecognizer(tapGesture5)
     }
     
     @objc func clickMission(_ sender: UITapGestureRecognizer) {
@@ -49,5 +55,9 @@ class MissionListViewController: UIViewController {
         let view = sender.view
         newViewController.missionTag = view!.tag
         self.navigationController?.pushViewController(newViewController, animated: true)
+    }
+    
+    @objc func clickUnlock(_ sender: UITapGestureRecognizer) {
+        self.navigationController?.popViewController(animated: true)
     }
 }

@@ -7,13 +7,14 @@
 //
 
 import UIKit
-import AVFoundation
+import AVKit
 
 class InformationViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var imgInformation: UIImageView!
     @IBOutlet weak var lblInformation: UILabel!
     
     var level = 0
+    var player: AVAudioPlayer?
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         self.title =  "Information \(level)"
@@ -21,24 +22,37 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
         
         imgInformation.image = UIImage(named: "InfoPaperino\(level)")
         
-//        let player = AVQueuePlayer()
-//        if let url = Bundle.main.url(forResource: "AudioPaperino11", withExtension: "m4a", subdirectory: "Audio") {
-//            print(url)
-//            player.removeAllItems()
-//            player.insert(AVPlayerItem(url: url), after: nil)
-//            player.play()
-//        }
         
-        let url = Bundle.main.url(forResource: "AudioPaperino11", withExtension: "m4a")!
-        do {
-            let player = try AVAudioPlayer(contentsOf: url)
+        guard let file = Bundle.main.path(forResource: "AudioPaperino\(level)", ofType: "m4a") else {
+            print("file not found")
+            return
+        }
+        do{
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
             
-            player.play()
             
-        } catch let error {
+            player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: file))
+            guard let playerTemp = player else { return }
+            playerTemp.play()
+        }catch{
             print(error.localizedDescription)
         }
+
+//        if let url = Bundle.main.url(forResource: "AudioPaperino11", withExtension: "m4a", subdirectory: "Audio") {
+//            print(url)
+//        }
         
+//        let url = Bundle.main.url(forResource: "AudioPaperino11", withExtension: "m4a")!
+//        do {
+//            let player = try AVAudioPlayer(contentsOf: url)
+//
+//            player.play()
+//
+//        } catch let error {
+//            print(error.localizedDescription)
+//        }
+
         if level == 1 {
             lblInformation.text = "I come from the forest, from one of the trees that's supposed to be kept to stop global warming. Nowadays people are exploiting me because they think that I’m a renewable resource. Well, they’re not wrong, but they’re being too greedy."
         } else if level == 2 {
