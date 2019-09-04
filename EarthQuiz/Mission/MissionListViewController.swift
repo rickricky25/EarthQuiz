@@ -22,6 +22,14 @@ class MissionListViewController: UIViewController {
     @IBOutlet weak var roundMissionPaper: roundView!
     @IBOutlet weak var roundMissionPlastic: roundView!
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        if self.isMovingFromParent {
+            self.navigationController?.popToRootViewController(animated: true)
+        }
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundMissionList")!)        
