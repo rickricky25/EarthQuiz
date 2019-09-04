@@ -100,6 +100,10 @@ class InformationViewController: UIViewController, AVAudioPlayerDelegate {
         } else {
             self.navigationController?.popViewController(animated: true)
             self.navigationController?.popViewController(animated: true)
+//            let newStoryboard = UIStoryboard(name: "Overview", bundle: nil)
+//            let newViewController = newStoryboard.instantiateViewController(withIdentifier: "LargeMap") as! LMapViewController
+//            self.navigationController?.popToViewController(newViewController, animated: true)
+            
         }
     }
 }

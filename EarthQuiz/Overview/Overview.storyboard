@@ -221,7 +221,7 @@
         <!--Map View Controller-->
         <scene sceneID="lbn-mr-3AM">
             <objects>
-                <viewController id="PEe-pi-NXM" customClass="LMapViewController" customModule="EarthQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LargeMap" id="PEe-pi-NXM" customClass="LMapViewController" customModule="EarthQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kFQ-uY-b4m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1826"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
