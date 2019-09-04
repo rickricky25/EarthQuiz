@@ -44,6 +44,8 @@
 		5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038852B231E3DDC002FD5CC /* TutorialViewController.swift */; };
 		63B03B62231E6F710072B721 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B61231E6F700072B721 /* roundButton.swift */; };
 		63B03B64231E75400072B721 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */; };
+		63B03B662320150B0072B721 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B03B652320150B0072B721 /* Slide.swift */; };
+		63B03B68232018740072B721 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B03B67232018740072B721 /* Slide.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		5038852B231E3DDC002FD5CC /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		63B03B61231E6F700072B721 /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
 		63B03B63231E75400072B721 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		63B03B652320150B0072B721 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		63B03B67232018740072B721 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 			children = (
 				50388507231C12DE002FD5CC /* Onboarding.storyboard */,
 				5038851D231C2C9B002FD5CC /* OnboardingViewController.swift */,
+				63B03B652320150B0072B721 /* Slide.swift */,
+				63B03B67232018740072B721 /* Slide.xib */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 				503884F7231C0F92002FD5CC /* Home.storyboard in Resources */,
 				50356720231FD8EB0020141F /* AudioPaperino1.m4a in Resources */,
 				50356726231FDA510020141F /* AudioPaperino4.m4a in Resources */,
+				63B03B68232018740072B721 /* Slide.xib in Resources */,
 				5035672A231FDAE70020141F /* AudioPaperino6.m4a in Resources */,
 				50356732231FDB730020141F /* AudioPaperino10.m4a in Resources */,
 				5038850F231C134B002FD5CC /* Overview.storyboard in Resources */,
@@ -313,6 +320,7 @@
 				63B03B62231E6F710072B721 /* roundButton.swift in Sources */,
 				63B03B64231E75400072B721 /* HomeCollectionViewCell.swift in Sources */,
 				5038852A231E38D5002FD5CC /* LMapViewController.swift in Sources */,
+				63B03B662320150B0072B721 /* Slide.swift in Sources */,
 				50388526231D1A39002FD5CC /* MissionPopupViewController.swift in Sources */,
 				5038852C231E3DDC002FD5CC /* TutorialViewController.swift in Sources */,
 				50388520231CDF70002FD5CC /* CharUnlockViewController.swift in Sources */,

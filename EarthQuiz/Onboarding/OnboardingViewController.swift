@@ -8,12 +8,25 @@
 
 import UIKit
 
-class OnboardingViewController: UIViewController {
+class OnboardingViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var btnOnboard: UIButton!
     
+    @IBOutlet weak var scrollView: UIScrollView! {
+        didSet{
+            scrollView.delegate = self
+        }
+    }
+    
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    var slides:[Slide] = [];
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        slide
+        
+//
         
         UserDefaults.standard.register(defaults: ["Level" : 1, "Onboarding" : false, "ModalMap" : false])
         btnOnboard.titleLabel?.text = "\(UserDefaults.standard.bool(forKey: "Onboarding"))"
@@ -29,10 +42,14 @@ class OnboardingViewController: UIViewController {
                 self.present(newNavigationController, animated: true, completion: nil)
             }
         }
-        
-
         // Do any additional setup after loading the view.
     }
+    
+//    slide
+    func createSlides() -> [Slide] {
+        
+    }
+//
     
     @IBAction func OnboardingTapped(_ sender: Any) {
         UserDefaults.standard.set(true, forKey: "Onboarding")
