@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awJ-2H-Q1E" userLabel="CharacteristicsFullView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awJ-2H-Q1E" userLabel="CharacteristicsFullView" customClass="roundView" customModule="EarthQuiz" customModuleProvider="target">
                                 <rect key="frame" x="33" y="415" width="349" height="352"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -27,10 +27,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Characteristics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxa-Mm-QBR">
-                                                <rect key="frame" x="90" y="13" width="160" height="31"/>
+                                                <rect key="frame" x="61" y="13" width="227" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -44,7 +44,7 @@
                                                 <rect key="frame" x="8" y="8" width="332" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qS2-Jw-Zew" userLabel="Recycle Progress View">
+                                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="qS2-Jw-Zew" userLabel="Recycle Progress View">
                                                         <rect key="frame" x="145" y="16" width="171" height="2"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </progressView>
@@ -189,6 +189,11 @@
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PeperioRight" translatesAutoresizingMaskIntoConstraints="NO" id="Z5j-RK-9Qk">
                                 <rect key="frame" x="20" y="89" width="247" height="251"/>
@@ -221,9 +226,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="PHD-Zd-JxA"/>
                     <connections>
+                        <outlet property="AirProgressView" destination="GmK-lm-nbn" id="x4L-Zu-sfd"/>
                         <outlet property="CharFullView" destination="awJ-2H-Q1E" id="oGl-Mo-aql"/>
+                        <outlet property="ChemicalsProgressView" destination="GmK-lm-nbn" id="6gi-gh-0k9"/>
+                        <outlet property="DegradeProgressView" destination="pbM-gb-GKg" id="jlH-AU-p8Z"/>
+                        <outlet property="EnergyProgressView" destination="IQm-qT-YWF" id="jwg-29-Oxu"/>
                         <outlet property="MyCharView" destination="MZb-vC-OJA" id="Ri5-tk-IR9"/>
+                        <outlet property="RecycleProgressView" destination="qS2-Jw-Zew" id="NgU-ht-Fh5"/>
                         <outlet property="RenewableLogo" destination="Lcl-AI-JhK" id="XD8-ov-kGh"/>
+                        <outlet property="ReuseProgressView" destination="IUM-mA-GAI" id="7Y4-rn-yqQ"/>
+                        <outlet property="WaterProgressView" destination="JSt-Zl-qn7" id="btU-eE-xlM"/>
                         <outlet property="imgOverview" destination="Z5j-RK-9Qk" id="C3o-aT-YQ8"/>
                     </connections>
                 </viewController>
