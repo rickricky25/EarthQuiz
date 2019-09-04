@@ -11,6 +11,9 @@ import UIKit
 class OverviewViewController: UIViewController {
 
     @IBOutlet weak var imgOverview: UIImageView!
+    @IBOutlet weak var CharFullView: UIView!
+    @IBOutlet weak var MyCharView: UIView!
+    @IBOutlet weak var RenewableLogo: UIImageView!
     
     var character = 0
     
@@ -22,19 +25,13 @@ class OverviewViewController: UIViewController {
         } else if character == 2 {
             
         }
+        
+        CharFullView.layer.cornerRadius = 50
 
+        RenewableLogo.layer.masksToBounds = true
+        RenewableLogo.layer.cornerRadius = RenewableLogo.bounds.width / 2
+        
+        
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
