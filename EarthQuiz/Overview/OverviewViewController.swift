@@ -71,28 +71,28 @@ class OverviewViewController: UIViewController {
         self.DegradeProgressView.progress = 0.85
         
         //4
-        self.EnergyProgressView.tintColor = #colorLiteral(red: 0.4612241983, green: 0.7124726772, blue: 0.328251183, alpha: 1)
+        self.EnergyProgressView.tintColor = #colorLiteral(red: 0.8235294118, green: 0.3490196078, blue: 0.3490196078, alpha: 1)
         self.EnergyProgressView.transform = EnergyProgressView.transform.scaledBy(x: 1, y: 3)
         self.EnergyProgressView.layer.cornerRadius = 1.5
         self.EnergyProgressView.clipsToBounds = true
         self.EnergyProgressView.progress = 1
         
         //5
-        self.WaterProgressView.tintColor = #colorLiteral(red: 0.4612241983, green: 0.7124726772, blue: 0.328251183, alpha: 1)
+        self.WaterProgressView.tintColor = #colorLiteral(red: 0.8235294118, green: 0.3490196078, blue: 0.3490196078, alpha: 1)
         self.WaterProgressView.transform = WaterProgressView.transform.scaledBy(x: 1, y: 3)
         self.WaterProgressView.layer.cornerRadius = 1.5
         self.WaterProgressView.clipsToBounds = true
         self.WaterProgressView.progress = 1
         
         //6
-        self.AirProgressView.tintColor = #colorLiteral(red: 0.4612241983, green: 0.7124726772, blue: 0.328251183, alpha: 1)
+        self.AirProgressView.tintColor = #colorLiteral(red: 0.8235294118, green: 0.3490196078, blue: 0.3490196078, alpha: 1)
         self.AirProgressView.transform = AirProgressView.transform.scaledBy(x: 1, y: 3)
         self.AirProgressView.layer.cornerRadius = 1.5
         self.AirProgressView.clipsToBounds = true
         self.AirProgressView.progress = 0.9
         
         //7
-        self.ChemicalsProgressView.tintColor = #colorLiteral(red: 0.4612241983, green: 0.7124726772, blue: 0.328251183, alpha: 1)
+        self.ChemicalsProgressView.tintColor = #colorLiteral(red: 0.8235294118, green: 0.3490196078, blue: 0.3490196078, alpha: 1)
         self.ChemicalsProgressView.transform = ChemicalsProgressView.transform.scaledBy(x: 1, y: 3)
         self.ChemicalsProgressView.layer.cornerRadius = 1.5
         self.ChemicalsProgressView.clipsToBounds = true
