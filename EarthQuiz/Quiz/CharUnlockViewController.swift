@@ -21,7 +21,7 @@ class CharUnlockViewController: UIViewController {
     @IBAction func btnHomePressed(_ sender: UIButton) {
 //        UserDefaults.standard.set(true, forKey: "FromUnlock")
 //        self.dismiss(animated: true, completion: nil)
-        let newStoryboard = UIStoryboard(name: "Home", bundle: nil)
+        let newStoryboard = UIStoryboard(name: "Mission", bundle: nil)
         let newViewController = newStoryboard.instantiateViewController(withIdentifier: "MissionList") as! MissionListViewController
         self.navigationController?.pushViewController(newViewController, animated: true)
     }
