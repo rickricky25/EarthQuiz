@@ -227,7 +227,6 @@
                     <navigationItem key="navigationItem" id="PHD-Zd-JxA"/>
                     <connections>
                         <outlet property="AirProgressView" destination="GmK-lm-nbn" id="x4L-Zu-sfd"/>
-                        <outlet property="CharFullView" destination="awJ-2H-Q1E" id="oGl-Mo-aql"/>
                         <outlet property="ChemicalsProgressView" destination="GmK-lm-nbn" id="6gi-gh-0k9"/>
                         <outlet property="DegradeProgressView" destination="pbM-gb-GKg" id="jlH-AU-p8Z"/>
                         <outlet property="EnergyProgressView" destination="IQm-qT-YWF" id="jwg-29-Oxu"/>

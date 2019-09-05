@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
         self.navigationController?.navigationBar.backgroundColor = UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 1)
 //        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 //        self.navigationController?.navigationBar.barTintColor =  UIColor(displayP3Red: 0.52, green: 0.71, blue: 0.38, alpha: 1)
-
+        
         
 //        Mission Button Color
         btnMission.backgroundColor = #colorLiteral(red: 0.7345408797, green: 0.3556827307, blue: 0.7285602689, alpha: 1)
@@ -57,7 +57,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         let newStoryboard = UIStoryboard(name: "Overview", bundle: nil)
         let newViewController = newStoryboard.instantiateViewController(withIdentifier: "ItemOverview") as! OverviewViewController
-        newViewController.character = indexPath.row
+        //newViewController.character = indexPath.row
         self.navigationController?.pushViewController(newViewController, animated: true)
     }
     
