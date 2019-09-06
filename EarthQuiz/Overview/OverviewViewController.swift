@@ -34,9 +34,10 @@ class OverviewViewController: UIViewController {
 //        }
 //    }
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidLoad()
         
+        UserDefaults.standard.set(10, forKey: "Level")
 //        if character == 1 {
 //
 //        } else if character == 2 {

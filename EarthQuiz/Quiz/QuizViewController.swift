@@ -94,6 +94,7 @@ class QuizViewController: UIViewController {
         if sender.tag == 3 {
             let newViewController = storyboard?.instantiateViewController(withIdentifier: "Information") as! InformationViewController
             newViewController.level = level
+            print(level)
             self.navigationController?.pushViewController(newViewController, animated: true)
         }
         
